@@ -16,4 +16,5 @@ document.getElementById("form-login").onsubmit = (e) => {
         alert("Senha incorreta!");
         return;
     }
+    window.location.href = "home.html";
 }
